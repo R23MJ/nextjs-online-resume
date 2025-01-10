@@ -36,7 +36,7 @@ export default function ContactForm() {
   }
 
   return (
-    <section className="bg-background/95 rounded-xl flex flex-col items-center mx-auto w-[60vw] p-5">
+    <section className="bg-background/95 rounded-xl flex flex-col items-center sm:max-w-[60vw] mx-auto p-8">
       <h2 className="text-2xl font-semibold">Share your vision!</h2>
       <Form {...form}>
         <form
