@@ -18,7 +18,7 @@ export default function Skills() {
                 width={64}
                 height={64}
               />
-              {skill.title}
+              <h2>{skill.title}</h2>
             </CardHeader>
             <CardContent className="flex flex-col items-center gap-8">
               <p className="max-w-[475px]">{skill.description}</p>

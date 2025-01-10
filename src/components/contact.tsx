@@ -50,7 +50,13 @@ export default function ContactForm() {
             render={({ field }) => (
               <FormItem>
                 <FormControl>
-                  <Input id="name" placeholder="Name" type="text" {...field} />
+                  <Input
+                    autoComplete="on"
+                    id="name"
+                    placeholder="Name"
+                    type="text"
+                    {...field}
+                  />
                 </FormControl>
                 <ValidationError
                   prefix="Name"
@@ -67,6 +73,7 @@ export default function ContactForm() {
               <FormItem>
                 <FormControl>
                   <Input
+                    autoComplete="on"
                     id="email"
                     placeholder="Email"
                     type="email"
