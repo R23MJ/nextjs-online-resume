@@ -21,7 +21,7 @@ export default function Skills() {
               {skill.title}
             </CardHeader>
             <CardContent className="flex flex-col items-center gap-8">
-              <p>{skill.description}</p>
+              <p className="max-w-[475px]">{skill.description}</p>
               <ul className="flex flex-col gap-8">
                 {skill.fields.map((field) => (
                   <li
