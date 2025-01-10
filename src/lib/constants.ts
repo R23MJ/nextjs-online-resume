@@ -16,7 +16,7 @@ export const SKILLS = [
     imageURL: "https://simpleicons.org/icons/react.svg",
     title: "Frontend",
     description:
-      "I have experience building web applications with Next.js and React.",
+      "I've built web apps with React & Next.js from my very own portfolio website (you're here!) to custom apps using external APIs.",
     fields: [
       {
         title: "Languages I speak",
@@ -32,7 +32,7 @@ export const SKILLS = [
     imageURL: "https://simpleicons.org/icons/python.svg",
     title: "Backend",
     description:
-      "I have experience building backend services with Python and Next.js.",
+      "I've built RESTful APIs with Python & FastAPI, and have experience with databases like SQLite and PostgreSQL.",
     fields: [
       {
         title: "Languages & Frameworks",
