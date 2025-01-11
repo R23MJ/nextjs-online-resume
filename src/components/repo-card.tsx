@@ -17,7 +17,7 @@ export default function RepoCard({ repo }: RepoCardProps) {
         <p>{repo.description}</p>
       </CardContent>
       <CardFooter className="flex flex-col justify-start items-start mt-auto">
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           {repo.topics.map(
             (topic) =>
               topic !== "featured" && (
